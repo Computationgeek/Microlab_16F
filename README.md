@@ -195,6 +195,4 @@ Built with:
 
 ---
 
-**Made with ⚡ by [Aamir Ayaaz](https://github.com/aamirayaaz5)**
-
 *"If you can't build it yourself, you don't truly understand it."*
