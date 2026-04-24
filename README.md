@@ -181,7 +181,7 @@ MIT License - Build, modify, share freely. Just give credit.
 ## 🔗 Links
 
 - **Build Story:** [Hackster.io Project](https://www.hackster.io/aamirayaaz5/building-a-pic16f877a-development-board-from-scratch-in-2026-7d29bc)
-- **LinkedIn Post:** (https://www.linkedin.com/posts/aamir-ayaaz-b5549a220_embeddedsystems-electronicsengineering-hardwaredesign-activity-7425852984116404224-cy4W?utm_source=share&utm_medium=member_desktop&rcm=ACoAADeZ0vEBUnqS9fmuq7yIjKdyj92gUf-e6x0)
+- **LinkedIn Post:** [LinkedIn Post about the board](https://www.linkedin.com/posts/aamir-ayaaz-b5549a220_embeddedsystems-electronicsengineering-hardwaredesign-activity-7425852984116404224-cy4W?utm_source=share&utm_medium=member_desktop&rcm=ACoAADeZ0vEBUnqS9fmuq7yIjKdyj92gUf-e6x0)
 
 ## 🙏 Acknowledgments
 
