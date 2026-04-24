@@ -3,7 +3,7 @@ A hand-soldered PIC16F877A development board built entirely on perfboard. This p
 
 <img width="749" height="562" alt="hkio" src="https://github.com/user-attachments/assets/2c940034-9846-4d7e-9929-de731b72f40c" />
 
-## 🎯 Vision & Motivation
+## Vision & Motivation
 
 In 2026, most developers rely on modern MCUs like ESP32 and STM32. But there's something special about PIC microcontrollers - they force you to understand registers, bit manipulation, and hardware at a fundamental level: no HAL abstraction, no hand-holding.
 
@@ -13,7 +13,7 @@ I built MicroLab 16F because:
 - **Maker ethos** - If you can't build it yourself, you don't truly understand it
 - **Fun over perfection** - This isn't a product, it's a learning journey
 
-## ✨ Features
+## Features
 
 ### Hardware
 - **PIC16F877A** microcontroller (40-pin DIP)
@@ -33,7 +33,7 @@ I built MicroLab 16F because:
 - Decoupling capacitors for stable operation
 - External power compatible (PICkit3 or USB-C)
 
-## 📋 Detailed Specifications
+## Detailed Specifications
 
 <img width="565" height="475" alt="PIC16F877A_Pinout_600x600" src="https://github.com/user-attachments/assets/ad9777ec-0b56-462c-929f-302a223e2305" />
 
@@ -55,7 +55,7 @@ I built MicroLab 16F because:
 | **Programming Interface** | ICSP (In-Circuit Serial Programming) |
 | **Programmer** | PICkit3
 
-## 🔧 Components Used
+## Components Used
 
 ### Main Components
 | Component | Specification | Quantity | Purpose |
@@ -79,7 +79,7 @@ I built MicroLab 16F because:
 | Perfboard | Single-sided | 1 | PCB substrate |
 | IC Socket | 40-pin DIP | 1 | PIC mounting (optional) |
 
-## 🛠️ Software & Tools
+## Software & Tools
 
 ### Development Environment
 - **IDE:** MPLAB X IDE v6.20 (Last version with PICkit3 support)
@@ -112,7 +112,7 @@ sudo udevadm trigger
 #pragma config CP = OFF         // Flash Program Memory Code Protection off
 ```
 
-## 🚀 Getting Started
+## Getting Started
 
 ### 1. Power Up
 Connect the USB-C cable to a 5V power source (laptop, power bank, or wall adapter).
@@ -127,7 +127,7 @@ The power LED should illuminate.
 5 - PGC   → PIC Pin 39 (RB6/PGC)
 6 - NC    → Not connected
 
-## 🐛 Troubleshooting
+## Troubleshooting
 
 ### PICkit3 "Target VDD too low" Error
 **Problem:** VDD measured as 4.75V instead of 5.0V during programming.
@@ -149,7 +149,7 @@ The power LED should illuminate.
 
 See [docs/troubleshooting.md](docs/troubleshooting.md) for more.
 
-## 📚 Learning Resources
+## Learning Resources
 
 ### PIC16F877A Deep Dive
 - [Microchip Official Datasheet](https://www.microchip.com/wwwproducts/en/PIC16F877A)
@@ -161,7 +161,7 @@ See [docs/troubleshooting.md](docs/troubleshooting.md) for more.
 - "Programming PIC Microcontrollers with XC8" by Armstrong Subero
 - Embedded.fm podcast episodes on PIC architecture
 
-## 🎓 Why PIC16F877A in 2026?
+## Why PIC16F877A in 2026?
 
 **Yes, it's 25+ years old. Here's why it still matters:**
 
@@ -174,7 +174,7 @@ See [docs/troubleshooting.md](docs/troubleshooting.md) for more.
 
 Modern isn't always better. Sometimes you need to go back to basics.
 
-## 📜 License
+## License
 
 MIT License - Build, modify, share freely. Just give credit.
 
@@ -183,7 +183,7 @@ MIT License - Build, modify, share freely. Just give credit.
 - **Build Story:** [Hackster.io Project](https://www.hackster.io/aamirayaaz5/building-a-pic16f877a-development-board-from-scratch-in-2026-7d29bc)
 - **LinkedIn Post:** [LinkedIn Post about the board](https://www.linkedin.com/posts/aamir-ayaaz-b5549a220_embeddedsystems-electronicsengineering-hardwaredesign-activity-7425852984116404224-cy4W?utm_source=share&utm_medium=member_desktop&rcm=ACoAADeZ0vEBUnqS9fmuq7yIjKdyj92gUf-e6x0)
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 Built with:
 - Lots of solder fumes
